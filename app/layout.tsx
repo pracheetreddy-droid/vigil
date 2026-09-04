@@ -5,7 +5,6 @@ import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { StoryGuidedTour } from '@/components/story-guided-tour';
 import { SosModal } from '@/components/sos-modal';
-import { RecruitmentShowcaseModal } from '@/components/recruitment-showcase';
 
 export const metadata: Metadata = {
   title: 'VIGIL — Always aware. Always with you.',
@@ -27,7 +26,6 @@ export default function RootLayout({
             {children}
           </main>
           <SosModal />
-          <RecruitmentShowcaseModal />
           <Footer />
         </VigilProvider>
       </body>
